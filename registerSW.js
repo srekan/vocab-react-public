@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/vocab-react-public/sw.js', { scope: '/vocab-react-public/' })})}
